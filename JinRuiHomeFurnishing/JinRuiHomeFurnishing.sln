@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JinRuiHomeFurnishing.Bll", "JinRuiHomeFurnishing.BLL\JinRuiHomeFurnishing.Bll.csproj", "{2264C354-3C21-4411-94E9-A7080993B0F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JinRuiHomeFurnishing.Dal", "JinRuiHomeFurnishing.Dal\JinRuiHomeFurnishing.Dal.csproj", "{C2EBFE4D-12E0-4226-9285-6626D03EF115}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JinRuiHomeFurnishing.IDal", "JinRuiHomeFurnishing.IDal\JinRuiHomeFurnishing.IDal.csproj", "{C27803C2-B532-4242-AABC-3464A8867456}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JinRuiHomeFurnishing.Model", "JinRuiHomeFurnishing.Model\JinRuiHomeFurnishing.Model.csproj", "{16FE9048-A83E-47E9-81A0-A4AF09D5FE9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JinRuiHomeFurnishing.ExtensionMethod", "JinRuiHomeFurnishing.ExtensionMethod\JinRuiHomeFurnishing.ExtensionMethod.csproj", "{6264C8C5-5272-42E9-963C-12CBD6AAC143}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JinRuiHomeFurnishingNetCoreMVC", "JinRuiHomeFurnishingNetCoreMVC\JinRuiHomeFurnishingNetCoreMVC.csproj", "{7A5C2854-C031-46C8-805E-F53155DBEC87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2264C354-3C21-4411-94E9-A7080993B0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2264C354-3C21-4411-94E9-A7080993B0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2264C354-3C21-4411-94E9-A7080993B0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2264C354-3C21-4411-94E9-A7080993B0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EBFE4D-12E0-4226-9285-6626D03EF115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EBFE4D-12E0-4226-9285-6626D03EF115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EBFE4D-12E0-4226-9285-6626D03EF115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EBFE4D-12E0-4226-9285-6626D03EF115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27803C2-B532-4242-AABC-3464A8867456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27803C2-B532-4242-AABC-3464A8867456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27803C2-B532-4242-AABC-3464A8867456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27803C2-B532-4242-AABC-3464A8867456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FE9048-A83E-47E9-81A0-A4AF09D5FE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FE9048-A83E-47E9-81A0-A4AF09D5FE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FE9048-A83E-47E9-81A0-A4AF09D5FE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FE9048-A83E-47E9-81A0-A4AF09D5FE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6264C8C5-5272-42E9-963C-12CBD6AAC143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6264C8C5-5272-42E9-963C-12CBD6AAC143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6264C8C5-5272-42E9-963C-12CBD6AAC143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6264C8C5-5272-42E9-963C-12CBD6AAC143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5C2854-C031-46C8-805E-F53155DBEC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5C2854-C031-46C8-805E-F53155DBEC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5C2854-C031-46C8-805E-F53155DBEC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5C2854-C031-46C8-805E-F53155DBEC87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20B4CDE9-7A8A-4B58-90B6-DEEA42AD65CD}
+	EndGlobalSection
+EndGlobal

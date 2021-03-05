@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>JinRuiHomeFurnishing.Dal</AssemblyName>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JinRuiHomeFurnishing.IDal\JinRuiHomeFurnishing.IDal.csproj" />
+    <ProjectReference Include="..\JinRuiHomeFurnishing.Model\JinRuiHomeFurnishing.Model.csproj" />
+  </ItemGroup>
+
+</Project>

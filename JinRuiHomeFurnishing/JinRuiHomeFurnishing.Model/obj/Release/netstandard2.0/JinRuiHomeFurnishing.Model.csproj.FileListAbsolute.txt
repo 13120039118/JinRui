@@ -1,0 +1,9 @@
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Model.deps.json
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Model.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Model.pdb
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Model.csprojAssemblyReference.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Model.csproj.CoreCompileInputs.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Model.AssemblyInfoInputs.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Model.AssemblyInfo.cs
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Model.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Model.pdb

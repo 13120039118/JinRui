@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JinRuiHomeFurnishingNetCoreMVC</name>
+    </assembly>
+    <members>
+        <member name="T:JinRuiHomeFurnishingNetCoreMVC.Attributes.LoginCheckAttribute">
+            <summary>
+            验证登录的属性
+            </summary>
+        </member>
+        <member name="M:JinRuiHomeFurnishingNetCoreMVC.Controllers.CustomController.GetReqParam">
+            <summary>
+            获取请求参数req  (base64编码 http://tools.jb51.net/tools/base64_decode-gb2312.php)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:JinRuiHomeFurnishingNetCoreMVC.Controllers.CustomController.Version">
+            <summary>
+            接口方法版本号
+            </summary>
+        </member>
+        <member name="T:JinRuiHomeFurnishingNetCoreMVC.Controllers.ValuesController">
+            <summary>
+            valuesMethod
+            </summary>
+            <response code="102">请您重新登陆</response>
+            <response code="101">失败</response>
+            <response code="100">成功</response>  
+        </member>
+        <member name="M:JinRuiHomeFurnishingNetCoreMVC.Controllers.ValuesController.Get(System.Int32,System.Int32)">
+            <summary>
+            导管子
+            </summary>
+            <remarks>
+            备注:
+            http://localhost:50810/product/Values/Get
+            </remarks>
+            <param name="a">参数1</param>
+            <param name="b">参数2</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

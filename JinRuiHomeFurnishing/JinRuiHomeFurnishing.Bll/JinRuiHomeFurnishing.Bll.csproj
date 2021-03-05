@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JinRuiHomeFurnishing.Dal\JinRuiHomeFurnishing.Dal.csproj" />
+    <ProjectReference Include="..\JinRuiHomeFurnishing.Model\JinRuiHomeFurnishing.Model.csproj" />
+  </ItemGroup>
+
+</Project>

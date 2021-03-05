@@ -1,0 +1,14 @@
+2021-03-05 14:56:32.393 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-05 14:56:33.901 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:50810/index.html  
+2021-03-05 14:56:33.915 +08:00 [WRN] Failed to determine the https port for redirect.
+2021-03-05 14:56:34.219 +08:00 [INF] Request finished in 319.8024ms 200 text/html;charset=utf-8
+2021-03-05 14:56:34.487 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:50810/swagger/v1/swagger.json  
+2021-03-05 14:56:34.650 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - JinRuiHomeFurnishingNetCoreMVC.Controllers.FileUploadController.UploadFile (JinRuiHomeFurnishingNetCoreMVC). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository) in C:\projects\ahoy\src\Swashbuckle.AspNetCore.SwaggerGen\SwaggerGenerator\SwaggerGenerator.cs:line 102
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository) in C:\projects\ahoy\src\Swashbuckle.AspNetCore.SwaggerGen\SwaggerGenerator\SwaggerGenerator.cs:line 88
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath) in C:\projects\ahoy\src\Swashbuckle.AspNetCore.SwaggerGen\SwaggerGenerator\SwaggerGenerator.cs:line 43
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider) in C:\projects\ahoy\src\Swashbuckle.AspNetCore.Swagger\SwaggerMiddleware.cs:line 47
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-05 14:56:34.729 +08:00 [INF] Request finished in 242.4708ms 500 text/html; charset=utf-8

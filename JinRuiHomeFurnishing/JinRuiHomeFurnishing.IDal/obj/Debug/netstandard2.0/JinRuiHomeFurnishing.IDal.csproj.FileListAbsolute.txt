@@ -1,0 +1,12 @@
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.deps.json
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.pdb
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.pdb
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.csprojAssemblyReference.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.csproj.CoreCompileInputs.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.AssemblyInfoInputs.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.AssemblyInfo.cs
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.csproj.CopyComplete
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.IDal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.pdb

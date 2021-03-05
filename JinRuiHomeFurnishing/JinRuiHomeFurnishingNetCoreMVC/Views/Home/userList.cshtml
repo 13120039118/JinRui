@@ -1,0 +1,625 @@
+﻿@model IEnumerable<JinRuiHomeFurnishing.Model.UsersInfo>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>userList</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PasswordSalt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommonName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Province)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CooperationType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CooperationID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JiFenAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MSN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QQ)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OriginUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastUpdateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsLockedOut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IpAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QQAccessToken)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SinaAccessToken)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Area)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LikeClass)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NickName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAuthMobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAuthEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PageType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastLoginTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pictrue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JianJie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QianMing)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastQianDaoTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QianDaoCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YeWuMobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YeWuEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YeWuQQ)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WeiXinHao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MobileProvince)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MobileCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsCrmHiden)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsHiden)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserTableId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastJiFenBalanceTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoginCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JinJiDianHua)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShenFenZheng)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.XueLi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QiTaGanXingQuKeCheng)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YaoQingMa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DaQuId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.XiaoQuId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GongZuoNianXian)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BaoKaoKeMu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZhuanYe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsXueYuan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KaiKeShiJian)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SiteIndex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.XinXiLiu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZhiWei)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RuZhiTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZhuanZhengTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LiZhiTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZpFuZheRen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PxFuZheRen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JieShaoRen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BeiZhu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MobileYuanGong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RenGongChengBen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsYuanGong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateUserTableId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GroupId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDaoChuCheck)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DaoChuCheckTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TargetYuanXiao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPeiXun)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppSource)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuDao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TuiGuangFangShi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateUserGroupId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuDaoBaoTableId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QQOpenId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WeiXinOpenId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WeiBoOpenId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RawURL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntentionCollege)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShenFen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntentionId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PasswordSalt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommonName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Province)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CooperationType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CooperationID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JiFenAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MSN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QQ)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostalCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OriginUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastUpdateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsLockedOut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IpAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QQAccessToken)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SinaAccessToken)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Area)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LikeClass)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NickName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAuthMobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAuthEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PageType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastLoginTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Source)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pictrue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JianJie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QianMing)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastQianDaoTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QianDaoCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YeWuMobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YeWuEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YeWuQQ)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WeiXinHao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MobileProvince)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MobileCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsCrmHiden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsHiden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserTableId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastJiFenBalanceTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoginCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JinJiDianHua)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShenFenZheng)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.XueLi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QiTaGanXingQuKeCheng)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YaoQingMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DaQuId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.XiaoQuId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GongZuoNianXian)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BaoKaoKeMu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZhuanYe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsXueYuan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KaiKeShiJian)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SiteIndex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.XinXiLiu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZhiWei)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RuZhiTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZhuanZhengTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LiZhiTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZpFuZheRen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PxFuZheRen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JieShaoRen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BeiZhu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MobileYuanGong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RenGongChengBen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsYuanGong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateUserTableId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GroupId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDaoChuCheck)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DaoChuCheckTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TargetYuanXiao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsPeiXun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppSource)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuDao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TuiGuangFangShi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateUserGroupId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuDaoBaoTableId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QQOpenId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WeiXinOpenId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WeiBoOpenId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RawURL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntentionCollege)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShenFen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntentionId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

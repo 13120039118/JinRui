@@ -1,0 +1,16 @@
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.deps.json
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.pdb
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Dal.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.IDal.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Model.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Dal.pdb
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.Model.pdb
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\bin\Release\netstandard2.0\JinRuiHomeFurnishing.IDal.pdb
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.csprojAssemblyReference.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.csproj.CoreCompileInputs.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.AssemblyInfoInputs.cache
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.AssemblyInfo.cs
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.csproj.CopyComplete
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.dll
+E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.BLL\obj\Release\netstandard2.0\JinRuiHomeFurnishing.Bll.pdb
