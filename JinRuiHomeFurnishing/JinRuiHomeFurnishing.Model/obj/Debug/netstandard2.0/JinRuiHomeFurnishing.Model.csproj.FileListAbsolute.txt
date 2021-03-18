@@ -14,3 +14,12 @@ E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2
 E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.AssemblyInfo.cs
 E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.dll
 E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.pdb
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.deps.json
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.dll
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.pdb
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.csprojAssemblyReference.cache
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.csproj.CoreCompileInputs.cache
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.AssemblyInfoInputs.cache
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.AssemblyInfo.cs
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.dll
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Model\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.pdb

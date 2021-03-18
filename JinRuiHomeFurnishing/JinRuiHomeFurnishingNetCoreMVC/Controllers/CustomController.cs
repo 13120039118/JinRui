@@ -24,6 +24,7 @@ namespace JinRuiHomeFurnishingNetCoreMVC.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            int i = 1;
             return View();
         }
 

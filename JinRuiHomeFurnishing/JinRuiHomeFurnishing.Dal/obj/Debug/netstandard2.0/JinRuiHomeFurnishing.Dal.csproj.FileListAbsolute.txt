@@ -12,3 +12,17 @@ E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0
 E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.csproj.CopyComplete
 E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.dll
 E:\JinRui\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.pdb
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.deps.json
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.dll
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.pdb
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.dll
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.dll
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.IDal.pdb
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\bin\Debug\netstandard2.0\JinRuiHomeFurnishing.Model.pdb
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.csprojAssemblyReference.cache
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.csproj.CoreCompileInputs.cache
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.AssemblyInfoInputs.cache
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.AssemblyInfo.cs
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.csproj.CopyComplete
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.dll
+E:\JinRui\gitTest\JinRuiHomeFurnishing\JinRuiHomeFurnishing.Dal\obj\Debug\netstandard2.0\JinRuiHomeFurnishing.Dal.pdb

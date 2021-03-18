@@ -20,6 +20,25 @@
             接口方法版本号
             </summary>
         </member>
+        <member name="M:JinRuiHomeFurnishingNetCoreMVC.Controllers.FileUploadController.UploadFile(Microsoft.AspNetCore.Http.IFormFileCollection,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            通用文件上传接口
+            </summary>
+            <param name="files">文件</param>
+            <param name="groupId">文件所属用户</param>
+            <param name="company">文件所属公司 0表示中业</param>
+            <param name="directory">文件所属目录 0用户头像 1在线答疑 2作业在线答疑 3试题图片 4APP广告 5一对一预约课程 6微信裂变 7沟通记录</param>       
+            <param name="fileType">文件类型 fileType大于0时表示上传经base64的图片上传</param>
+            <param name="fileCount">文件数量</param>
+            <param name="pic_i">经base64的图片文件 i表示文件索引 i从1开始计数   好像没用到传空串吧</param>
+            <returns></returns>       
+        </member>
+        <member name="M:JinRuiHomeFurnishingNetCoreMVC.Controllers.FileUploadController.UpdateUsersImage">
+            <summary>
+            修改用户头像
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:JinRuiHomeFurnishingNetCoreMVC.Controllers.ValuesController">
             <summary>
             valuesMethod
