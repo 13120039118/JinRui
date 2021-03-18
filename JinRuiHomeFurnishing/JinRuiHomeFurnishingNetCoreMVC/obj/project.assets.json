@@ -13816,11 +13816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishingNetCoreMVC\\JinRuiHomeFurnishingNetCoreMVC.csproj",
+      "projectUniqueName": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishingNetCoreMVC\\JinRuiHomeFurnishingNetCoreMVC.csproj",
       "projectName": "JinRuiHomeFurnishingNetCoreMVC",
-      "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishingNetCoreMVC\\JinRuiHomeFurnishingNetCoreMVC.csproj",
+      "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishingNetCoreMVC\\JinRuiHomeFurnishingNetCoreMVC.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishingNetCoreMVC\\obj\\",
+      "outputPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishingNetCoreMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13839,14 +13839,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj": {
-              "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj"
+            "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj": {
+              "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj"
             },
-            "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.ExtensionMethod\\JinRuiHomeFurnishing.ExtensionMethod.csproj": {
-              "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.ExtensionMethod\\JinRuiHomeFurnishing.ExtensionMethod.csproj"
+            "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.ExtensionMethod\\JinRuiHomeFurnishing.ExtensionMethod.csproj": {
+              "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.ExtensionMethod\\JinRuiHomeFurnishing.ExtensionMethod.csproj"
             },
-            "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj": {
-              "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj"
+            "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj": {
+              "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj"
             }
           }
         }

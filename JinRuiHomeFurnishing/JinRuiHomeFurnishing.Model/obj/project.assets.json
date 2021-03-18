@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj",
+      "projectUniqueName": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj",
       "projectName": "JinRuiHomeFurnishing.Model",
-      "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj",
+      "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\obj\\",
+      "outputPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

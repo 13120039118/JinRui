@@ -1101,11 +1101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj",
+      "projectUniqueName": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj",
       "projectName": "JinRuiHomeFurnishing.Bll",
-      "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj",
+      "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\JinRuiHomeFurnishing.Bll.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\obj\\",
+      "outputPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1124,11 +1124,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Dal\\JinRuiHomeFurnishing.Dal.csproj": {
-              "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Dal\\JinRuiHomeFurnishing.Dal.csproj"
+            "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Dal\\JinRuiHomeFurnishing.Dal.csproj": {
+              "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Dal\\JinRuiHomeFurnishing.Dal.csproj"
             },
-            "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj": {
-              "projectPath": "E:\\JinRui\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj"
+            "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj": {
+              "projectPath": "E:\\JinRui\\gitTest\\JinRuiHomeFurnishing\\JinRuiHomeFurnishing.Model\\JinRuiHomeFurnishing.Model.csproj"
             }
           }
         }
